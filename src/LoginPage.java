@@ -273,7 +273,7 @@ public class LoginPage extends javax.swing.JFrame {
         }
         else
         {
-            if(pass == null ? ("devashish1") != null : !pass.equals("devashish1"))
+            if(pass == null || !pass.equals("devashish1"))
             {
                 if(user == null ? ("devashishkatoriya") != null : !user.equals("devashishkatoriya"))
                 {
@@ -286,7 +286,7 @@ public class LoginPage extends javax.swing.JFrame {
             }
             if(user == null ? ("devashishkatoriya") != null : !user.equals("devashishkatoriya"))
             {
-                if(pass == null ? ("devashish1") != null : !pass.equals("devashish1"))
+                if(pass == null || !pass.equals("devashish1"))
                 {
                     JOptionPane.showMessageDialog(null,"Please enter correct Username and password");
                 }
