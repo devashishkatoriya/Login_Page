@@ -268,7 +268,7 @@ public class LoginPage extends javax.swing.JFrame {
             }
             else
             {
-                JOptionPane.showMessageDialog(null,"Please enter corrtect password");
+                JOptionPane.showMessageDialog(null,"Please enter correct password");
             }
         }
         else
